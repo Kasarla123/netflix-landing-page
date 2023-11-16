@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgba(0,0,0,0.3) url('image1.jpg');
+            position: relative;
+        }
+        .logo{
+            width:250px;
+            height:100px;
+        }
+        .button{
+            padding:8px 15px;
+            color:#ffffff;
+            background-color:red;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        select{
+            margin-left:800px;
+            padding: 8px 15px;
+            background-color: black;
+            color: #ffffff;
+        }
+        .nav{
+            padding-top: 20px;
+            padding-left: 10px;
+            height:10vh;
+            display: flex;
+            align-items: center;
+        }
+        .content{
+            align-items: center;
+            width: 600px;
+            position: absolute;
+            top: 200px;
+            left: 500px;
+        }
+        .content h1{
+            font-size: 50px;
+            color: white;
+        }
+        .content h2{
+            font-size: 30px;
+            color: white;
+        }
+        .mail{
+            align-items: center;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+
+        }
+       .content p{
+            color: #ffffff;
+        }
+        .mail input{
+            outline: none;
+            border: none;
+            padding: 12px 10px;
+        }
+        .mail a{
+           padding: 18px 12px;
+           background-color: red;
+           color: #ffffff;
+           text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="logo.png" class="logo">
+        <select name="Language">
+            <option>English</option>
+            <option>Hindi</option>
+        </select>
+        <a href="#" class="button">Sign In</a>
+    </div>
+    <div class="content">
+        <h1>Unlimited movies, TV <br> shows and more</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your Email to create or restart your membership.</p>
+        <div class="mail">
+            <input type="text" placeholder="Email Address">
+            <a href="#">Get Started</a>
+            </div>
+    </div>
+</body>
+</html>
